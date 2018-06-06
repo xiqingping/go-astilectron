@@ -113,7 +113,7 @@ func ElectronDownloadSrc(os, arch string) string {
 	}
 
 	// Return url
-	return fmt.Sprintf("https://github.com/electron/electron/releases/download/v%s/electron-v%s-%s-%s.zip", VersionElectron, VersionElectron, o, a)
+	return fmt.Sprintf("http://cdn.npm.taobao.org/dist/electron/%s/electron-v%s-%s-%s.zip", VersionElectron, VersionElectron, o, a)
 }
 
 // initAppExecutable initializes the app executable path
